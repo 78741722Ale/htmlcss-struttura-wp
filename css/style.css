@@ -1,0 +1,54 @@
+/* Regola generale
+*******/
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* Palette colori Figma
+****************/
+:root 
+{
+--Body: #FFFFFF;
+--Header: rgb(229, 121, 230);
+--FDivColor : rgb(225, 214, 122);
+--SDivColor : rgb(0, 134, 255);
+}
+
+/* Common Utilities
+************/
+
+body {
+    width: 1200px;
+    background-color: var(--Body);
+    margin: auto;
+}
+
+/* Header
+***********/
+
+.Container_Header {
+    background-color: var(--Header);
+    width: 100%;
+    height: 150px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+/* Zona del Main
+***********/
+
+/* Prima MacroArea */
+
+.First_Div {
+    position: relative; 
+    margin: auto;
+    background-color: var(--FDivColor);
+    width: 100%;
+    height: 450px;
+    margin-bottom: 20px;
+}
+
+
+
