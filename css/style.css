@@ -14,6 +14,7 @@
 --Header: rgb(229, 121, 230);
 --FDivColor : rgb(225, 214, 122);
 --SDivColor : rgb(0, 134, 255);
+--Footer:rgb(136, 1, 254);
 }
 
 /* Common Utilities
@@ -46,9 +47,31 @@ body {
     margin: auto;
     background-color: var(--FDivColor);
     width: 100%;
-    height: 450px;
+    height: 500px;
     margin-bottom: 20px;
 }
 
 
+/* Seconda MacroArea */
 
+.Second_Div {
+    position: relative; 
+    margin: auto;
+    background-color: var(--SDivColor);
+    width: 100%;
+    height: 500px;
+    margin-bottom: 20px;
+}
+
+
+/* Footer 
+*************/
+
+.Container_Footer {
+    position: relative; 
+    margin: auto;
+    background-color: var(--Footer);
+    width: 100%;
+    height: 100px;
+    margin-bottom: 20px;
+}
